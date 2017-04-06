@@ -1,0 +1,108 @@
+body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Belleza;
+	background-color: rgb(240, 230, 175);
+}
+
+#main-header{
+	height: 80px;
+}
+
+#header-name {
+	font-size: 50px;
+	color: black;
+	padding: 15px;
+	margin: 0px 0px 0px 0px;
+	display: inline;
+}
+
+#main-image{
+	width: 600px;
+	height: 250px;
+	float: right;
+}
+
+#Welcome{
+	width: 700px;
+	float: left;
+	font-size: 16px;
+	margin: 20px 0px 20px 0px;
+}
+
+#recent-news{
+	float: right;
+	width: 300px;
+	margin: 20px 0px 20px 0px;
+}
+
+#recent-news > header{
+	margin-left: 5px;
+	color: green;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+#recent-news > ul{
+	list-style: none;
+}
+
+#recent-news > ul > li {
+	margin: 0px 0xp 3px 0px;
+}
+
+#main{
+	height: 100%;
+	width: 700px;
+	float: left;
+	margin: 0px 0px 3px 0px;
+}
+
+#donut-header{
+	color: green;
+	font-size: 15px;
+	margin: 0px 0px 3px 0px;
+	height: 25px;
+}
+
+.products{
+	width: 25%;
+	float: left;
+	margin: 0px 0px 20px 0px;
+}
+
+.product-article{
+	height: 150px;
+	width: 200px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: green;
+	margin: 3px 3px 3px 3px;
+	border-radius: 5px;
+}
+
+.product-thumbnail{
+	width: 35px;
+	height: 35px;
+	
+}
+
+#SEARCH{
+	float: right;
+	padding: top;
+	margin: 10px 10px 0px 0px;
+}
+
+footer{
+	width: 100%;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+	padding: 5px 0px 0px 0px;
+	border-radius: 5px;
+}
